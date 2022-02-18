@@ -1,0 +1,28 @@
+.hero {
+  padding: 10rem 0;
+}
+
+.hero__wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  max-width: 622px;
+  margin-right: 8rem;
+}
+
+.hero__name {
+  margin-left: 11.2rem;
+}
+.hero__name::before {
+  content: "";
+  tlace: -50%;
+  display: block;
+  width: 10.1rem;
+  height: 0.1rem;
+  color: #000;
+  background-color: #000;
+}
