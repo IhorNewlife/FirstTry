@@ -1,7 +1,11 @@
+//Base
 @import "./base/normolize";
 @import "./base/sbros";
 @import "./base/container";
+//Sections
 @import "./sections/header";
-@import "./component/btn";
 @import "./sections/hero";
+@import "./sections/about";
 @import "./sections/footer";
+//Component
+@import "./component/btn";

@@ -7,27 +7,26 @@
   background: #ffffff;
   border: 1px solid #3730a3;
   border-radius: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.56;
+
   &:hover {
-    background-color: #3730a3;
+    background-color: #7b61ff;
     color: #fff;
   }
   &:focus {
-    background-color: #3730a3;
+    background-color: #7b61ff;
     color: #fff;
   }
 }
 
-.-acent {
-  background: #3730a3;
-  border: 1px solid #3730a3;
+.btn_acent {
+  background-color: #3730a3;
   color: #fff;
-  border-radius: 6px;
+
   &:hover {
-    background-color: #fff;
-    color: #3730a3;
-  }
-  &:focus {
-    background-color: #fff;
-    color: #3730a3;
+    background-color: #7b61ff;
   }
 }
