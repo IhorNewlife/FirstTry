@@ -11,10 +11,12 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 1.56;
+  transition: all 1.2s;
 
   &:hover {
     background-color: #7b61ff;
     color: #fff;
+    transition: all 1.2s;
   }
   &:focus {
     background-color: #7b61ff;
@@ -25,8 +27,10 @@
 .btn_acent {
   background-color: #3730a3;
   color: #fff;
+  transition: all 1.2s;
 
   &:hover {
+    transition: all 1.2s;
     background-color: #7b61ff;
   }
 }
